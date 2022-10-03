@@ -19,7 +19,7 @@ class Main {
       switch(escolha){
         case 1:
           int tipo_animal = 0;
-          System.out.println("Qual tipo de animal deseja cadastrar 1 - Carnivoro ou 2 - Herbivoro");
+          System.out.println("Qual tipo de animal deseja cadastrar 1 - Carnívoro ou 2 - Herbívoro");
           tipo_animal = pegar_input.nextInt();
           if (tipo_animal == 1) {
             System.out.println("Digite o nome do Animal: ");
