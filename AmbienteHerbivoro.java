@@ -24,11 +24,11 @@ public class AmbienteHerbivoro extends Ambiente {
     return texto;
   }
   public String editar_animal(String nome_antigo, String nome_novo, Herbivoro h1) {
-    String texto = "não foi possivel encontrar um animal Herbivoro chamado " + nome_antigo;
+    String texto = "não foi possível encontrar um animal Herbívoro chamado " + nome_antigo;
     for(int i = 0; i < animais.size(); i++) {
         if (animais.get(i).get_nome().equals(nome_antigo)) {
             animais.set(i, h1);
-            texto = "O animal " + nome_antigo + " foi subistituido por " + nome_novo + "\n";
+            texto = "O animal " + nome_antigo + " foi subistituído por " + nome_novo + "\n";
             break;
         }
     }
