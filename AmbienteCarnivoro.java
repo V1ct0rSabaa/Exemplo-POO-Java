@@ -1,6 +1,6 @@
 public class AmbienteCarnivoro extends Ambiente {
   public AmbienteCarnivoro() {
-    super();
+    super(); //herdando construtor
   }
   
   public void set_animais_padrao(){
@@ -26,11 +26,11 @@ public class AmbienteCarnivoro extends Ambiente {
   }
 
   public String editar_animal(String nome_antigo, String nome_novo, Carnivoro c1) {
-    String texto = "não foi possivel encontrar um animal carnivoro chamado " + nome_antigo;
+    String texto = "não foi possível encontrar um animal carnívoro chamado " + nome_antigo;
     for(int i = 0; i < animais.size(); i++) {
         if (animais.get(i).get_nome().equals(nome_antigo)) {
             animais.set(i, c1);
-            texto = "O animal " + nome_antigo + " foi subistituido por " + nome_novo + "\n";
+            texto = "O animal " + nome_antigo + " foi subistituído por " + nome_novo + "\n";
             break;
         }
     }
