@@ -7,6 +7,6 @@ public class Carnivoro extends Animal {
     //sobrescrita de metodo
     public String comer(double peso) {
       this.peso += 1;
-      return this.nome + " esta comendo carne\n";
+      return this.nome + " está comendo carne\n";
     }
 }
