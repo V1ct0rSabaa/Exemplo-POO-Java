@@ -7,7 +7,7 @@ public class Herbivoro extends Animal {
 
     public String comer(double peso) {
       this.peso += 1;
-      return this.nome + " esta comendo plantas\n";
+      return this.nome + " está comendo plantas\n";
     }
 
 }
